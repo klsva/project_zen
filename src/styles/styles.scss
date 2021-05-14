@@ -215,6 +215,9 @@ body {
         font-weight: 400;
         letter-spacing: -0.05em;
         color: #ffffff;
+        &:hover{
+            color: #fab0c6;
+        }
     }
     @media (max-width: 720px) { //for burger
         &__body {
@@ -668,7 +671,12 @@ body {
         line-height: 1.2;
         font-weight: 400;
         letter-spacing: -0.05em;
-        a {color: #603e4e;}
+        a {
+            color: #603e4e;
+            &:hover{
+                color: #863a5f;
+            }
+        }
     }
 }
 
@@ -691,7 +699,16 @@ body {
         font-weight: 400;
         text-decoration: underline;
         letter-spacing: -0.05em;
-        a {color: #946579;}
+        a {
+            color: #603e4e;
+            &:visited{
+                color: #946579;
+            }
+            &:hover{
+                color: #863a5f;
+            }
+
+        }
         margin: 0 0 12px 0;
         
     }
